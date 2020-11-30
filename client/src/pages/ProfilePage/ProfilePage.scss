@@ -1,0 +1,28 @@
+.profile-page {
+    .cover {
+        height: 250px;
+        background: url(https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .shade {
+            background-color: rgba($color: #000000, $alpha: 0.7);
+        }
+
+        .info {
+            .propic {
+                width: 110px;
+                height: auto;
+            }
+
+            .info-content {
+                color: rgba($color: white, $alpha: 0.9);
+
+                h3,
+                h5 {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.profile-page .cover {
+  height: 250px;
+  background: url(https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-page .cover .shade {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-page .cover .info .propic {
+  width: 110px;
+  height: auto;
+}
+
+.profile-page .cover .info .info-content {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.profile-page .cover .info .info-content h3,
+.profile-page .cover .info .info-content h5 {
+  color: inherit;
+}
+/*# sourceMappingURL=ProfilePage.css.map */

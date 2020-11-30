@@ -1,0 +1,32 @@
+.team-card .top-bg {
+  height: 100px;
+}
+
+.team-card .team-card-content {
+  position: relative;
+  background: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.team-card .team-card-content .name {
+  margin-top: 15px;
+}
+
+.team-card .team-card-content p {
+  margin-top: 10px;
+}
+
+.team-card .team-card-content img.pro-pic {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  border-radius: 50px;
+  top: -42px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 3px solid white;
+}
+/*# sourceMappingURL=ProfileCard.css.map */
