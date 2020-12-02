@@ -18,7 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'account'
+    'account.apps.AccountConfig'
 ]
 
 MIDDLEWARE = [
@@ -104,7 +104,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 if not DEBUG:
     DEFAULT_FILE_STORAGE = 'hacksprint.storage.AzureMediaStorage'
 
-    AZURE_ACCOUNT_NAME = config('AZURE_ACCOUNT_NAME', default='azureaccountname')
+    AZURE_ACCOUNT_NAME = config(
+        'AZURE_ACCOUNT_NAME', default='azureaccountname')
     AZURE_ACCOUNT_KEY = config('AZURE_ACCOUNT_KEY', default='azureaccountkey')
 
     MEDIA_URL = f'https://{AZURE_ACCOUNT_NAME}.blob.core.windows.net/media/'
